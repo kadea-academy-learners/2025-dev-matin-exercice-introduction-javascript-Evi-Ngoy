@@ -1,13 +1,13 @@
 // ecrire le code de conversion ici
 let celsius;
-//celsius= prompt("Entrez un degré en celcuis")
+celsius = 30;
 
 // Conversion Celsius à Fahrenheit
 function celsiusToFahrenheit(celsius) {
   // ecrire le code de conversion ici
   let fahrenheit;
   fahrenheit = (celsius * 9/5) + 32;
-  fahrenheit = (celucis + "celcuis vaut :" + fahrenheit + "en fahrenheit")
+  console.log(`${celsius}°C vaut : ${fahrenheit}°F`)
   // la ligne suivante ne doit pas être modifiée
   return fahrenheit;
 }
